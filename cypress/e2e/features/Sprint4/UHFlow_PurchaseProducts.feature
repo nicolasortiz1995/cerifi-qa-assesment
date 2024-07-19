@@ -10,7 +10,7 @@ Feature: Complete Purchase Flow
         And I click the shopping cart
         Then the names of the added products should appear on the shopping cart page
 
-    @smoke @sprint4
+    @smoke @sprint4 @happy-path
     Scenario: Login, add products to cart, fill checkout form and complete purchase
         When I fill out the form and proceed to the next page
         Then I should be on the checkout overview page
